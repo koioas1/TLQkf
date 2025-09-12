@@ -4,7 +4,7 @@ public class FlyAtPlayer : MonoBehaviour
 {
     [SerializeField] Transform Player;
     [SerializeField] float speed = 10f;
-    [SerializeField] float arrivedistance = 0.4f;
+    [SerializeField] float arrivedistance = 1f;
     Vector3 targetPosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
