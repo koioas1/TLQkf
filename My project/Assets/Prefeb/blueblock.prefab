@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2355029466490087603}
   - component: {fileID: 7689799614909260988}
   - component: {fileID: 4438103179945186786}
-  - component: {fileID: 3029336942111892447}
   - component: {fileID: 4743142407585093597}
   m_Layer: 0
   m_Name: blueblock
@@ -31,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 5, y: 2.5, z: 4.70159}
-  m_LocalScale: {x: 1, y: 5, z: 2}
+  m_LocalScale: {x: 0.5, y: 5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -113,18 +112,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3029336942111892447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3402659357322489169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c574aaeb7e3100c4fa49e7ab43a6634d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!114 &4743142407585093597
 MonoBehaviour:
   m_ObjectHideFlags: 0
